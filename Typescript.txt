@@ -1,0 +1,17 @@
+npm install typescript -D
+
+Criar pasta .vscode na raiz, com o arquivo settings.json, com o conteúdo:
+{
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node --files",
+    }
+}
+
+npm install --save @types/node
+
+npx tsc --init
+
+npx tsc
+
+npm install @types/validator
+
