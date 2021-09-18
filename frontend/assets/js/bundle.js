@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/Aula19-Exercicio/form-control.ts":
-/*!**********************************************!*\
-  !*** ./src/Aula19-Exercicio/form-control.ts ***!
-  \**********************************************/
+/***/ "./src/form-control.ts":
+/*!*****************************!*\
+  !*** ./src/form-control.ts ***!
+  \*****************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -27,7 +27,7 @@ form.addEventListener('submit', function (event) {
     checkEmail(email);
     checkEqualPasswords(password, password2);
     if (shouldSendForm(this))
-        console.log('Submitted form.');
+        alert('Submitted form.');
 });
 function checkForEmptyFields() {
     var inputs = [];
@@ -585,12 +585,12 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 var exports = __webpack_exports__;
-/*!***************************************!*\
-  !*** ./src/Aula19-Exercicio/index.ts ***!
-  \***************************************/
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__webpack_require__(/*! ./form-control */ "./src/Aula19-Exercicio/form-control.ts");
+__webpack_require__(/*! ./form-control */ "./src/form-control.ts");
 
 })();
 
